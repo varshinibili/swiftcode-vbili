@@ -11,7 +11,7 @@ import java.util.concurrent.CompletionStage;
 import java.util.concurrent.ExecutionException;
 
 public class FeedService {
-    public FeedResponse getfeedResponse(String keyword) {
+    public FeedResponse getFeedResponse(String keyword) {
         FeedResponse feedResponseObject = new FeedResponse();
         try {
             WSRequest feedRequest = WS.url("https://news.google.com/news");
